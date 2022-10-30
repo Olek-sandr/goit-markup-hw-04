@@ -356,11 +356,11 @@ a {
   color: var(--main-color);
 }
 
-.team p {
+.team-card .text {
   color: var(--second-color);
   font-weight: 400;
 
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .team-card {
@@ -379,15 +379,42 @@ a {
 
   background-color: #ffffff;
 }
+/* -----SOCIAL----- */
+.social-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+  outline: 2px red solid;
+}
+
+.social-link {
+  display: flex;
+  height: 44px;
+  width: 44px;
+
+  outline: 2px black solid;
+}
+
+.social-icon {
+}
+
+.social-item {
+}
 
 /* ----------CLIENTS---------- */
+.client-section {
+}
 
-.clients-list {
+.client-list {
   display: flex;
   gap: var(--card-set-gap);
 }
 
-.clients-link {
+.client-item {
+}
+
+.client-link {
   display: block;
   width: 170px;
   height: 92px;
