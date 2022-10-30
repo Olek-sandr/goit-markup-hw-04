@@ -382,6 +382,7 @@ a {
 /* -----SOCIAL----- */
 .social-list {
   display: flex;
+  /* flex-wrap: wrap; */
   gap: 10px;
   justify-content: center;
 
@@ -390,6 +391,10 @@ a {
 
 .social-link {
   display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  background-color: inherit;
+  /* border-radius: 50%; */
   height: 44px;
   width: 44px;
 
@@ -397,6 +402,9 @@ a {
 }
 
 .social-icon {
+  width: 20px;
+  height: 20px;
+  /* fill: #afb1b8; */
 }
 
 .social-item {
