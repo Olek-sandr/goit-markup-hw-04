@@ -386,25 +386,35 @@ a {
   gap: 10px;
   justify-content: center;
 
-  outline: 2px red solid;
+  /* outline: 2px red solid; */
 }
 
 .social-link {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
   background-color: inherit;
-  /* border-radius: 50%; */
+
+  border-radius: 50%;
   height: 44px;
   width: 44px;
 
-  outline: 2px black solid;
+  /* outline: 2px black solid; */
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
-  /* fill: #afb1b8; */
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent);
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  color: #ffffff;
 }
 
 .social-item {
