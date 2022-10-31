@@ -78,12 +78,6 @@ a {
   align-items: center;
 }
 
-.social-icon {
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
-}
-
 /* Header */
 
 .logo,
@@ -420,13 +414,11 @@ a {
   background-color: var(--white);
 }
 /* -----SOCIAL----- */
+
 .social-list {
   display: flex;
-  /* flex-wrap: wrap; */
   gap: var(--social-list-gap);
   justify-content: center;
-
-  /* outline: 2px red solid; */
 }
 
 .social-link {
@@ -438,8 +430,6 @@ a {
   border-radius: 50%;
   height: 44px;
   width: 44px;
-
-  /* outline: 2px black solid; */
 }
 
 .social-link:hover,
@@ -447,17 +437,13 @@ a {
   background-color: var(--accent);
 }
 
-.social-icon:hover,
-.social-icon:focus {
-  fill: white;
-}
-
-.social-item {
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
 }
 
 /* ----------CLIENTS---------- */
-.client-section {
-}
 
 .client-list {
   display: flex;
