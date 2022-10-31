@@ -426,6 +426,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: inherit;
+  color: #afb1b8;
 
   border-radius: 50%;
   height: 44px;
@@ -435,12 +436,13 @@ a {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent);
+  color: #ffffff;
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 /* ----------CLIENTS---------- */
