@@ -195,7 +195,21 @@ a {
   margin-top: 9px;
 }
 
-/* -------Social-foote------- */
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.container-logo-address {
+  margin-right: 70px;
+}
+
+/* -------Social-footer------- */
+
+.social-footer {
+  display: inline-block;
+  align-items: flex-start;
+}
 
 .social-footer .social-link {
   background-color: rgba(255, 255, 255, 0.1);
@@ -205,9 +219,12 @@ a {
   fill: var(--white);
 }
 
-.social-footer .title {
+.social-footer .text {
+  display: block;
   text-transform: uppercase;
   color: var(--white);
+
+  margin-bottom: 20px;
 }
 
 /* STUSIO */
