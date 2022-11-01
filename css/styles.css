@@ -342,8 +342,6 @@ a {
 }
 
 .icon-benefits {
-  width: 70px;
-  height: 70px;
   fill: var(--main-color);
 }
 
@@ -472,8 +470,6 @@ a {
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
@@ -505,9 +501,6 @@ a {
 
 .client-icon {
   fill: currentColor;
-
-  width: 106px;
-  height: 60px;
 
   margin: 16px 32px;
 }
