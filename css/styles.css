@@ -98,10 +98,11 @@ a {
 
 .site-nav .link,
 .auth-nav .link {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
 
+  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -134,11 +135,11 @@ a {
 .auth-nav {
   display: flex;
   margin-left: auto;
+  align-items: baseline;
 }
 
 .site-nav .item + .item,
 .auth-nav .item + .item {
-  /* outline: solid red 1px; */
   margin-left: 50px;
 }
 
@@ -148,7 +149,14 @@ a {
 }
 
 .contact-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
+
+/* .contact-icon:hover,
+.contact-icon:focus {
+  color: var(--accent);
+} */
 
 /* --------Footer---------- */
 
@@ -198,6 +206,7 @@ a {
 
 .container-logo-address {
   margin-right: 70px;
+  width: 231px;
 }
 
 /* -------Social-footer------- */
