@@ -69,7 +69,6 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  /* outline: black solid 3px; */
 }
 
 .container-header {
@@ -252,7 +251,6 @@ a {
 }
 
 .hero {
-  /* background-color: var(--footer-hero); */
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
